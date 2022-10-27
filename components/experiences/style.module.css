@@ -1,0 +1,81 @@
+.container {
+    width: 250px;
+    height: 450px;
+    box-shadow: 1px 5px 15px 5px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    margin-top: 20px;
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 10% 1fr 1fr 1fr; 
+    gap: 0px 0px;
+}
+
+.container_title {
+    grid-column: 1 / 4;
+
+    display: flex;
+    align-items: center;
+}
+
+.container_title > .title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 29px;
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+
+.container_logos {
+    grid-row: 2 / 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_logos > .logo {
+    width: 35px;
+    height: 35px;
+    background-color: #4F4F4F;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.container_descriptions {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+ /* STYLE TO ITEMS EXPERIENCES */
+
+ .container_items_experiences {
+    margin-top: 10px;
+    width: 95%;
+ }
+
+ .container_items_experiences > .date {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 17px;
+    color: #828282;
+ }
+
+ .container_items_experiences > .role {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+ }
+
+ .container_items_experiences > .description {
+    font-size: 1.0rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #828282;
+ }
