@@ -1,0 +1,86 @@
+.title {
+    width: 250px;
+    height: 46px;
+    border-radius: 12px;
+    box-shadow: 1px 5px 15px 5px rgba(0,0,0,0.15);
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4F4F4F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ITEMS PROJECTS */
+.container_itemsproj {
+    width: 250px;
+    box-shadow: 1px 5px 15px 5px rgba(0,0,0,0.15);
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_itemsproj > .container_img {
+    width: 90%;
+    height: 200px;
+    background-color: #4F4F4F;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.container_itemsproj > .title_itemsproj {
+    width: 90%;
+    height: auto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.container_itemsproj > .p_itemsproj {
+    width: 90%;
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.container_itemsproj > .container_button {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container_button > .button_demo {
+    width: 80px;
+    height: 30px;
+    background: #2F80ED;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.container_button > .button_code {
+    width: 80px;
+    height: 30px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+    margin-left: 5px;
+    cursor: pointer;
+}
