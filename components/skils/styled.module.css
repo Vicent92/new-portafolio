@@ -45,3 +45,33 @@
     line-height: 20px;
     color: #4F4F4F;
 }
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 350px;
+        height: 320px;
+    }
+    
+    .container_skills > .title {
+        font-size: 2.0rem;
+    }
+    
+    /* ITEMS FRONT AND BACK */
+    .container_item_front {
+        margin-top: 10px;
+    }
+    
+    .container_item_front > .item_front {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+    
+    .container_item_back {
+        margin-top: 10px;
+    }
+    
+    .container_item_back > .item_back {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+}

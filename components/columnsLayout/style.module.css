@@ -1,0 +1,13 @@
+/* FirstColumnLayout */
+.container_FirstColumnLayout {
+
+}
+
+/* SecondColumLayout */
+.constainer_SecondColumLayout {
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
