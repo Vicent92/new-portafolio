@@ -11,17 +11,17 @@ export const CardProfile = () => {
       </div>
 
       <div className={styled.container_name}>
-        <div className={styled.name}>Vicente Millan</div>
-        <div className={styled.title}>FullStack Developer</div>
+        <div className={styled.name_container_name}>Vicente Millan</div>
+        <div className={styled.title_container_name}>FullStack Developer</div>
       </div>
 
       <div className={styled.container_contact}>
-        <div className={styled.email}><MdEmail/> Vicentemillan1992@gmail.com</div>
-        <div className={styled.phone}><AiTwotonePhone/> (+54) 1164786787</div>
+        <div className={styled.email_container_contact}><MdEmail/> Vicentemillan1992@gmail.com</div>
+        <div className={styled.phone_container_contact}><AiTwotonePhone/> (+54) 1164786787</div>
       </div>
 
       <div className={styled.container_p}>
-        <p className={styled.p}>
+        <p className={styled.p_container_p}>
           Sobre todo soy una persona autodidacta, que sabe admitir sus errores y
           corregirlos lo más rápido posible. En la empresa o el equipo donde
           estoy le sumo innovación, soluciones a los problemas y dedicación para

@@ -29,14 +29,14 @@
     justify-content: space-evenly;
 }
 
-.container_name > .name {
+.name_container_name {
     font-size: 1.7rem;
     font-weight: 600;
     line-height: 19px;
     color: #4F4F4F;
 }
 
-.container_name > .title {
+.title_container_name {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
@@ -54,14 +54,14 @@
     justify-content: space-evenly;
 }
 
-.container_contact .email {
+.email_container_contact {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
     color: #4F4F4F;
 }
 
-.container_contact .phone {
+.phone_container_contact {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
@@ -73,7 +73,7 @@
     height: 100px;
 }
 
-.container_p > .p {
+.phone_container_p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
@@ -97,11 +97,11 @@
         /* background-color: red; */
     }
     
-    .container_name > .name {
+    .name_container_name {
         font-size: 2.5rem;
     }
     
-    .container_name > .title {
+    .title_container_name {
         font-size: 2.0rem;
     }
     
@@ -116,11 +116,11 @@
         justify-content: space-evenly;
     }
     
-    .container_contact .email {
+    .email_container_contact {
         font-size: 1.7rem;
     }
     
-    .container_contact .phone {
+    .phone_container_contact {
         font-size: 1.7rem;
     }
     
@@ -130,7 +130,7 @@
         /* background-color: red; */
     }
     
-    .container_p > .p {
+    .p_container_p {
         font-size: 1.7rem;
         font-weight: 400;
         line-height: 17px;

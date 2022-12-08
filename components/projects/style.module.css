@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.container_itemsproj > .container_img {
+.container_img {
     width: 90%;
     height: 200px;
     background-color: #4F4F4F;
@@ -114,7 +114,7 @@
         align-items: center;
     }
     
-    .container_itemsproj > .container_img {
+    .container_img {
         width: 250px;
         height: 200px;
     }

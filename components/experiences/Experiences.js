@@ -6,15 +6,15 @@ export const Experiences = () => {
   return (
     <div className={styled.container}>
       <div className={styled.container_title}>
-        <div className={styled.title}>Experiences</div>
+        <div className={styled.title_container_title}>Experiences</div>
       </div>
 
       <div className={styled.container_logos}>
-        <div className={styled.logo}></div>
+        <div className={styled.logo_container_logos}></div>
 
-        <div className={styled.logo}></div>
+        <div className={styled.logo_container_logos}></div>
 
-        <div className={styled.logo}></div>
+        <div className={styled.logo_container_logos}></div>
       </div>
 
       <div className={styled.container_descriptions}>

@@ -35,11 +35,11 @@ export const ItemsExperiences = () => {
         {
             itemsExperiences.map((el, id) => (
                 <div key={id} className={styled.container_items_experiences}>
-                    <div className={styled.date}>{el.date}</div>
+                    <div className={styled.date_container_items_experiences}>{el.date}</div>
 
-                    <div className={styled.role}>{el.role}</div>
+                    <div className={styled.role_container_items_experiences}>{el.role}</div>
 
-                    <div className={styled.description}>{el.description}</div>
+                    <div className={styled.description_container_items_experiences}>{el.description}</div>
                 </div>
             ))
         }

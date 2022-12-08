@@ -7,13 +7,13 @@ export const Skills = () => {
   return (
     <div className={styled.container}>
         <div className={styled.container_skills}>
-            <div className={styled.title}>Front-End</div>
+            <div className={styled.title_container_skills}>Front-End</div>
 
             <ItemsFront/>
         </div>
         
         <div className={styled.container_skills}>
-            <div className={styled.title}>Back-End</div>
+            <div className={styled.title_container_skills}>Back-End</div>
 
             <ItemsBack/>
         </div>

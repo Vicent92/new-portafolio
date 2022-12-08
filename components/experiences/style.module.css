@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.container_title > .title {
+.title_container_title {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.container_logos > .logo {
+.logo_container_logos {
     width: 35px;
     height: 35px;
     background-color: #4F4F4F;
@@ -59,21 +59,21 @@
     width: 95%;
  }
 
- .container_items_experiences > .date {
+ .date_container_items_experiences {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 17px;
     color: #828282;
  }
 
- .container_items_experiences > .role {
+ .role_container_items_experiences {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 20px;
     color: #333333;
  }
 
- .container_items_experiences > .description {
+ .description_container_items_experiences {
     font-size: 1.0rem;
     font-weight: 500;
     line-height: 20px;
@@ -86,7 +86,7 @@
         height: 500px;
     }
     
-    .container_title > .title {
+    .title_container_title {
         font-size: 2.0rem;
     }
     
@@ -98,7 +98,7 @@
         align-items: center;
     }
     
-    .container_logos > .logo {
+    .logo_container_logos {
         width: 45px;
         height: 45px;
     }
@@ -119,21 +119,21 @@
         width: 95%;
      }
     
-     .container_items_experiences > .date {
+     .date_container_items_experiences {
         font-size: 1.5rem;
         font-weight: 500;
         line-height: 17px;
         color: #828282;
      }
     
-     .container_items_experiences > .role {
+     .role_container_items_experiences {
         font-size: 1.8rem;
         font-weight: 600;
         line-height: 20px;
         color: #333333;
      }
     
-     .container_items_experiences > .description {
+     .description_container_items_experiences {
         font-size: 1.5rem;
         font-weight: 400;
         line-height: 22px;
