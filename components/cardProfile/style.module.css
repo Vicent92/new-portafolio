@@ -29,14 +29,14 @@
     justify-content: space-evenly;
 }
 
-.container_name > .name {
+.name_container_name {
     font-size: 1.7rem;
     font-weight: 600;
     line-height: 19px;
     color: #4F4F4F;
 }
 
-.container_name > .title {
+.title_container_name {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
@@ -54,14 +54,14 @@
     justify-content: space-evenly;
 }
 
-.container_contact .email {
+.email_container_contact {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
     color: #4F4F4F;
 }
 
-.container_contact .phone {
+.phone_container_contact {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
@@ -73,10 +73,66 @@
     height: 100px;
 }
 
-.container_p > .p {
+.phone_container_p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 12px;
     color: #828282;
 }
 
+@media screen and (min-width: 800px) {
+    .container {
+        width: 350px;
+        height: 500px;
+    }
+
+    .container_image {
+        width: 300px;
+        height: 250px;
+    }
+    
+    .container_name {
+        width: 83%;
+        height: 50px;
+        /* background-color: red; */
+    }
+    
+    .name_container_name {
+        font-size: 2.5rem;
+    }
+    
+    .title_container_name {
+        font-size: 2.0rem;
+    }
+    
+    .container_contact {
+        width: 83%;
+        height: 50px;
+        /* background-color: red; */
+        margin-top: 5px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .email_container_contact {
+        font-size: 1.7rem;
+    }
+    
+    .phone_container_contact {
+        font-size: 1.7rem;
+    }
+    
+    .container_p {
+        width: 83%;
+        height: 200px;
+        /* background-color: red; */
+    }
+    
+    .p_container_p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 17px;
+    }
+}

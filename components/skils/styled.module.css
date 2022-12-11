@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.container_skills > .title {
+.title_container_skills {
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 22px;
@@ -28,7 +28,7 @@
     margin-top: 10px;
 }
 
-.container_item_front > .item_front {
+.item_front {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 20px;
@@ -39,9 +39,39 @@
     margin-top: 10px;
 }
 
-.container_item_back > .item_back {
+.item_back {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 20px;
     color: #4F4F4F;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 350px;
+        height: 320px;
+    }
+    
+    .title_container_skills {
+        font-size: 2.0rem;
+    }
+    
+    /* ITEMS FRONT AND BACK */
+    .container_item_front {
+        margin-top: 10px;
+    }
+    
+    .item_front {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+    
+    .container_item_back {
+        margin-top: 10px;
+    }
+    
+    .item_back {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
 }
