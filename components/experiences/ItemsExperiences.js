@@ -5,7 +5,7 @@ export const ItemsExperiences = () => {
   const [experiences, setExperiences] = useState([])
 
   useEffect(() => {
-    const url = 'http://localhost:3000/api/experiences'
+    const url = 'api/experiences'
     fetch(url)
     .then(res => res.json())
     .then(json => setExperiences(json))
