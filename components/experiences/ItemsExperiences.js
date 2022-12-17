@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import styled from './style.module.css'
 
@@ -5,12 +6,12 @@ export const ItemsExperiences = () => {
   const [experiences, setExperiences] = useState([])
 
   useEffect(() => {
-    const url = 'api/experiences'
-    fetch(url)
-    .then(res => res.json())
-    .then(json => setExperiences(json))
-    .catch(error => console.log(error))
-  })
+    axios.get('api/experiences')
+    .then(res => {
+      setExperiences(res.data)
+      console.log(res.data)
+    })
+  }, [])
 
   return (
     <>
